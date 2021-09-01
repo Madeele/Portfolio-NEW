@@ -88,6 +88,13 @@ a:hover {
     justify-content: right;
 }
 
+.right_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+}
+
 /******* PAGE *******/
 
 .page {
@@ -146,6 +153,13 @@ a:hover {
 }
 
 .horizontal_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mockups {
+    margin-top: 64px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
