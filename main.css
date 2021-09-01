@@ -118,6 +118,10 @@ a:hover {
     padding-bottom: 8px;
 }
 
+.some a :hover{
+    fill: #FF6A1C;
+}
+
 .some_roles {
     padding-top: 100px;
     display: flex;
@@ -145,4 +149,43 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+/******* PROFFESION *******/
+
+.home_pro{
+    flex-direction: column;
+}
+
+.prof {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+.back_white {
+    background-color: white;
+}
+
+.back_black {
+    background-color: #131313;
+}
+
+.prof_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48%;
+    justify-content: space-between;
+    padding: 64px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.title_icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
