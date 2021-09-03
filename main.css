@@ -11,6 +11,7 @@ html {
   
 body {
     margin: 0;
+    padding: 0;
 }
 
 /******* FONTS *******/
@@ -28,7 +29,8 @@ h3 {
 
 p {
     font-weight: 400;
-    width: 650px;
+    width: auto;
+    word-wrap: break-word;
 }
 
 .orange {
@@ -165,6 +167,10 @@ a:hover {
     justify-content: space-between;
 }
 
+.mockup_pic {
+    width: auto;
+}
+
 /******* PROFFESION *******/
 
 .home_pro{
@@ -202,4 +208,79 @@ a:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+@media only screen and (max-device-width: 480px) {
+    
+
+    .page {
+        flex-direction: column;
+        padding: 32px 24px;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .nav_container {
+        display: none;
+    }
+
+    /****** FONTS *******/
+
+    .huge_text {
+        font-size: 60px;
+        margin: 0;
+    }
+    
+    .small_text {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        margin: 8px;
+    }
+
+    .welcoming_text {
+        padding-top: 5%;
+    }
+
+    .some_roles {
+        padding-top: 10%;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .some {
+        justify-content: space-around;
+    }
+
+    .heading_img {
+        width: 70%;
+        align-self: center;
+    }
+
+    .mockups {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 32px;
+    }
+
+    .mockup_pic {
+        width: 60%;
+        padding-top: 32px;
+    }
+
+    .prof {
+        flex-direction: column;
+        margin-top: 32px;
+    }
+
+    .prof_box {
+        width: 100%;
+    }
+
 }
