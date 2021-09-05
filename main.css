@@ -210,6 +210,37 @@ a:hover {
     align-items: center;
 }
 
+
+/***************ABOUT****************/
+
+.home_about {
+    flex-direction: column;
+}
+
+.contact_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.cv {
+   margin: 4px 8px;
+   color: white;
+}
+
+.about_me {
+    width: 40%;
+}
+
+.bttn-jelly.bttn-primary {
+    background-color: #FF6A1C  !important;
+    width: max-content;
+}
+
+.bttn-jelly.bttn-md:hover {
+    box-shadow: none !important ;
+}
+
+
 @media only screen and (max-device-width: 480px) {
     
 
