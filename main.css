@@ -360,4 +360,21 @@ a:hover {
         width: 100%;
     }
 
+    .me_pic {
+        flex-direction: column-reverse;
+    }
+
+    .about_me{
+        width: 100%;
+    }
+
+    .picture {
+        width: 40%;
+        margin-bottom: 16px;
+    }
+
+    .header {
+        margin-bottom: 16px;
+    }
+
 }
