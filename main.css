@@ -268,30 +268,35 @@ a:hover {
 
 ::-webkit-scrollbar {
     width: 10px;
-  }
+}
   
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f100;
-  }
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f100;
+}
   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: rgb(184, 184, 184);
-    border-radius: 10px;
-    cursor: pointer;
-  }
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: rgb(184, 184, 184);
+border-radius: 10px;
+cursor: pointer;
+}
 
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgb(158, 158, 158);
-  }
+::-webkit-scrollbar-thumb:hover {
+background: rgb(158, 158, 158);
+}
+
+.box_title {
+    padding-left: 16px;
+}
+
 
 @media only screen and (max-device-width: 480px) {
 
 
     .page {
         flex-direction: column;
-        padding: 32px 24px;
+        padding: 24px 24px;
         height: auto;
         min-height: 100vh;
     }
@@ -321,7 +326,7 @@ a:hover {
     }
 
     .welcoming_text {
-        padding-top: 5%;
+        padding-top: 0%;
     }
 
     .some_roles {
@@ -370,11 +375,36 @@ a:hover {
 
     .picture {
         width: 40%;
-        margin-bottom: 16px;
+        margin-bottom: 32px;
     }
 
     .header {
         margin-bottom: 16px;
+    }
+
+    .contact_container {
+        align-items: center;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .contact a {
+        display: block;
+    }
+
+    .contact h3 {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .green {
+        padding-left: 0;
+    }
+
+    .orange {
+        padding-left: 0;
     }
 
 }
