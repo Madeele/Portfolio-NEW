@@ -168,12 +168,13 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
+    align-items: end;
 }
 
 .mockup_pic {
     width: auto;
-    max-width: 100%;
+    max-width: 50%;
+    height: 100%;
 }
 
 /******* PROFFESION *******/
